@@ -27,11 +27,11 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker build -t marlonruizpro/graphql:0.0.2 .
+        docker build -t marlonruizpro/graphql:0.0.1 .
 
     - name: Push Docker Image
       run: |
-        docker push marlonruizpro/graphql:0.0.2 .
+        docker push marlonruizpro/graphql:0.0.1 .
 
 
 
