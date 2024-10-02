@@ -3,7 +3,7 @@ import { Float, Query, Resolver, Int, Args } from '@nestjs/graphql';
 @Resolver()
 export class HelloWorldResolver {
 
-    @Query( () => String, { description: 'Hola buenos dias xd', name: 'hello' } )
+    @Query( () => String, { description: 'Hola buenos dias xd, final final', name: 'hello' } )
     helloWorld(): string {
         return 'Hola Mundo';
     }
